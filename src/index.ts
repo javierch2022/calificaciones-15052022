@@ -39,11 +39,9 @@ prom = nt1 * 0.1 + nt2 * 0.5 + nt3 * 0.4;
 
 if (prom > -1 && prom < 11) {
   console.log("la Calificacion final de", nombre, "es: ", prom);
-} 
-else (prom < 0 && prom > 10) {
+} else {
   console.log("Hay un error, siga con el siguiente alumno");
 }
-
 
 setTimeout(function () {
   window.location.reload(1);
